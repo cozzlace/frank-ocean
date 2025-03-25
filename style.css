@@ -1,0 +1,71 @@
+body {
+    font-family: Impact, sans-serif;
+    background-color: #6eb541;
+    color: #87641e;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 20px;
+}
+
+.profile-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #31593b;
+}
+
+h1 {
+    color: #31593b;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.highlight {
+    color: #FFE882;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.moods {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.moods img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.moods img:hover {
+    transform: scale(1.1);
+}
+
+.other img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+
